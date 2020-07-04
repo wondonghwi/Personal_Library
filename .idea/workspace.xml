@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="612469e0-e951-403c-a388-e558007c105b" name="Default Changelist" comment="git commit error">
+    <list default="true" id="612469e0-e951-403c-a388-e558007c105b" name="Default Changelist" comment="login page create ready">
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,25 +25,32 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1e1eMDm4bqiSGUhUaWWeBCDnbiz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../front_end" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ccom1012\WebstormProjects\Personal_Library" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ccom1012\WebstormProjects\Personal_Library\dong" />
     </key>
@@ -58,7 +69,9 @@
       <workItem from="1593493672077" duration="2000" />
       <workItem from="1593540956179" duration="5155000" />
       <workItem from="1593644964730" duration="13000" />
-      <workItem from="1593700670573" duration="2853000" />
+      <workItem from="1593700670573" duration="3010000" />
+      <workItem from="1593864743541" duration="883000" />
+      <workItem from="1593866424113" duration="402000" />
     </task>
     <task id="LOCAL-00001" summary="Personal_Library project start">
       <created>1593493611870</created>
@@ -88,30 +101,55 @@
       <option name="project" value="LOCAL" />
       <updated>1593618110249</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="login page create ready">
+      <created>1593705672051</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593705672051</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Personal_Library project start" />
     <MESSAGE value="BookList Remark and css , js connect" />
     <MESSAGE value="node_modules gitignore" />
     <MESSAGE value="git commit error" />
-    <option name="LAST_COMMIT_MESSAGE" value="git commit error" />
+    <MESSAGE value="login page create ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="login page create ready" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2499" y="13" key="CommitChangelistDialog2" timestamp="1593618323772">
+    <state x="2499" y="13" key="CommitChangelistDialog2" timestamp="1593866804193">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="10" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593610777328" />
-    <state x="2499" y="13" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593618323772" />
+    <state x="463" y="10" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593705682517" />
+    <state x="2499" y="13" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593866804193" />
     <state x="2499" y="124" key="CommitChangelistDialog2/0.0.1536.824/3840.0.1920.1040/1920.12.1920.1040@1920.12.1920.1040" timestamp="1593493610689" />
     <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1593617273265">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593617273265" />
+    <state width="936" height="281" key="GridCell.Tab.0.bottom" timestamp="1593866691341">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593866691341" />
+    <state width="936" height="281" key="GridCell.Tab.0.center" timestamp="1593866691341">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="281" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593866691341" />
+    <state width="936" height="281" key="GridCell.Tab.0.left" timestamp="1593866691340">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="281" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593866691340" />
+    <state width="936" height="281" key="GridCell.Tab.0.right" timestamp="1593866691341">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="281" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593866691341" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593610636579">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
