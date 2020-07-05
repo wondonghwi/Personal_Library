@@ -14,7 +14,7 @@
             crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" type="text/css" href="css/add.css" />
+    <link rel="stylesheet" type="text/css" href="css/edit.css" />
 </head>
 <body class="bg-light">
 <div class="container">
@@ -29,8 +29,8 @@
 
     <div class="row">
         <div class="col-md-12 order-md-1">
-            <h4 class="mb-3">Book Info</h4>
-            <form id="form-add-book" class="needs-validation" novalidate>
+            <h4 class="mb-3">Book Edit</h4>
+            <form id="form-edit-book" class="needs-validation" novalidate>
                 <div class="mb-3">
                     <label for="title"
                     >Title <span class="text-muted">책 제목</span></label
@@ -88,6 +88,10 @@
                 <button class="btn btn-primary btn-lg btn-block" type="submit">
                     Save
                 </button>
+
+                <button class="btn btn-secondary btn-lg btn-block" id="btn-cancel">
+                    Cancel
+                </button>
             </form>
         </div>
     </div>
@@ -116,6 +120,6 @@
 ></script>
 
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script src="js/add.js"></script>
+<script src="js/edit.js"></script>
 </body>
 </html>
