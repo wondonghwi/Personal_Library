@@ -37,7 +37,7 @@ const save = async (e) => {
 
   const token = getToken();
   if (token === null) {
-    location.assign('/login');
+    location.assign('./login');
     return;
   }
 
@@ -72,7 +72,7 @@ const main = async () => {
   //토큰 체크
   const token = getToken();
   if (token === null) {
-    location.assign('/login');
+    location.assign('./login');
     return;
   }
 
@@ -80,7 +80,7 @@ const main = async () => {
   const user = await getUserByToken(token);
   if (user === null) {
     localStorage.clear();
-    location.assign('/login');
+    location.assign('./login');
     return;
   }
   console.log(user);

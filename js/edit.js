@@ -19,7 +19,7 @@ const getUserByToken = async (token) => {
 const logout = async () => {
   const token = getToken();
   if (token === null) {
-    location = '/login';
+    location = './login';
     return;
   }
   try {
@@ -32,14 +32,14 @@ const logout = async () => {
     console.log('logout error', error);
   } finally {
     localStorage.clear();
-    window.location.href = '/login';
+    window.location.href = './login';
   }
 };
 
 const getBook = async (bookId) => {
   const token = getToken();
   if (token === null) {
-    location.href = '/login';
+    location.href = './login';
     return null;
   }
   try {
@@ -72,7 +72,7 @@ const updateBook = async (bookId) => {
 
   const token = getToken();
   if (token === null) {
-    location = '/login';
+    location = './login';
     return;
   }
 
@@ -135,7 +135,7 @@ const main = async () => {
   // 토큰 체크
   const token = getToken();
   if (token === null) {
-    location.href = '/login';
+    location.href = './login';
     return;
   }
 
@@ -143,7 +143,7 @@ const main = async () => {
   const user = await getUserByToken(token);
   if (user === null) {
     localStorage.clear();
-    location = '/login';
+    location = './login';
     return;
   }
 

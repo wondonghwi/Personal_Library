@@ -19,7 +19,7 @@ async function getUserByToken(token) {
 async function logout() {
   const token = getToken();
   if (token === null) {
-    location.assign('/login');
+    location.assign('./login');
     return;
   }
   try {
@@ -32,7 +32,7 @@ async function logout() {
     console.log('logout error', error);
   } finally {
     localStorage.clear();
-    location.assign('/login');
+    location.assign('./login');
   }
 }
 
