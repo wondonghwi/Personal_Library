@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="612469e0-e951-403c-a388-e558007c105b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +81,7 @@
       <workItem from="1593864743541" duration="883000" />
       <workItem from="1593866424113" duration="402000" />
       <workItem from="1593920645052" duration="7977000" />
-      <workItem from="1594297964972" duration="2371000" />
+      <workItem from="1594297964972" duration="2493000" />
     </task>
     <task id="LOCAL-00001" summary="Personal_Library project start">
       <created>1593493611870</created>

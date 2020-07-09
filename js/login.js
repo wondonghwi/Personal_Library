@@ -24,7 +24,7 @@ const login = async (e) => {
       return;
     }
     localStorage.setItem('token', token);
-    location = '../';
+    location.assign('./');
   } catch (error) {
     const data = error.response.data;
     if (data) {
