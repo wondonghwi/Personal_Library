@@ -53,7 +53,7 @@ const save = async (e) => {
         },
       },
     );
-    location.assign('/');
+    location.assign('./');
   } catch (error) {
     console.log('save error', error);
     alert('책 추가 실패');

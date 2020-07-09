@@ -72,7 +72,7 @@ const updateBook = async (bookId) => {
 
   const token = getToken();
   if (token === null) {
-    location = './login';
+    location.assign = './login';
     return;
   }
 
@@ -143,7 +143,7 @@ const main = async () => {
   const user = await getUserByToken(token);
   if (user === null) {
     localStorage.clear();
-    location = './login';
+    location.assign = './login';
     return;
   }
 
