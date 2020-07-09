@@ -50,7 +50,7 @@ const main = async () => {
   // 토큰 체크
   const token = getToken();
   if (token !== null) {
-    location.assign('/');
+    location.assign('./');
     return;
   }
 };
