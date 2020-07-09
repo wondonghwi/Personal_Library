@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="612469e0-e951-403c-a388-e558007c105b" name="Default Changelist" comment="create Personal_Library project complete">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,18 @@
       <recent name="C:\Users\ccom1012\WebstormProjects\Personal_Library" />
     </key>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -70,6 +82,7 @@
       <workItem from="1593864743541" duration="883000" />
       <workItem from="1593866424113" duration="402000" />
       <workItem from="1593920645052" duration="7977000" />
+      <workItem from="1594297964972" duration="763000" />
     </task>
     <task id="LOCAL-00001" summary="Personal_Library project start">
       <created>1593493611870</created>
@@ -156,22 +169,26 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593891180329" />
-    <state width="936" height="281" key="GridCell.Tab.0.bottom" timestamp="1593866691341">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1419" height="208" key="GridCell.Tab.0.bottom" timestamp="1594297985504">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state width="936" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593866691341" />
-    <state width="936" height="281" key="GridCell.Tab.0.center" timestamp="1593866691341">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1419" height="208" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1594297985504" />
+    <state width="1419" height="208" key="GridCell.Tab.0.center" timestamp="1594297985503">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state width="936" height="281" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593866691341" />
-    <state width="936" height="281" key="GridCell.Tab.0.left" timestamp="1593866691340">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1419" height="208" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1594297985503" />
+    <state width="1419" height="208" key="GridCell.Tab.0.left" timestamp="1594297985502">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state width="936" height="281" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593866691340" />
-    <state width="936" height="281" key="GridCell.Tab.0.right" timestamp="1593866691341">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1419" height="208" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1594297985502" />
+    <state width="1419" height="208" key="GridCell.Tab.0.right" timestamp="1594297985503">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state width="936" height="281" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593866691341" />
+    <state width="1419" height="208" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1594297985503" />
     <state x="3053" y="251" width="613" height="538" key="find.popup" timestamp="1593927969890">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
